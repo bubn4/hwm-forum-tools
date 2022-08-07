@@ -27,7 +27,7 @@ module.exports = {
         namespace: 'bubna',
         grant: 'none',
         match: ['http*://*.heroeswm.ru/forum_messages.php*', 'http*://*.lordswm.com/forum_messages.php*'],
-        icon: 'https://dcdn.heroeswm.ru/hwmicon.ico'
+        icon: 'https://dcdn.heroeswm.ru/hwmicon.ico',
         version: dev ? `[version]-build.[buildNo]` : `[version]`
       }
     })
