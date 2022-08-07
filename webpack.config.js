@@ -26,6 +26,7 @@ module.exports = {
         author: 'Бубна',
         namespace: 'bubna',
         grant: 'none',
+        license: 'MIT',
         match: ['http*://*.heroeswm.ru/forum_messages.php*', 'http*://*.lordswm.com/forum_messages.php*'],
         icon: 'https://dcdn.heroeswm.ru/hwmicon.ico',
         version: dev ? `[version]-build.[buildNo]` : `[version]`
