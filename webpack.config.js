@@ -22,10 +22,12 @@ module.exports = {
     new WebpackUserscript({
       headers: {
         name: 'hwm-forum-tools - heroeswm.ru',
+        description: 'Скрипт, упрощающий работу с форумом HWM',
         author: 'Бубна',
-        match: 'https://www.heroeswm.ru/forum_messages.php*',
         namespace: 'bubna',
         grant: 'none',
+        match: ['http*://*.heroeswm.ru/forum_messages.php*', 'http*://*.lordswm.com/forum_messages.php*'],
+        icon: 'https://dcdn.heroeswm.ru/hwmicon.ico'
         version: dev ? `[version]-build.[buildNo]` : `[version]`
       }
     })
