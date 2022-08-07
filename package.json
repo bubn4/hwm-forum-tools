@@ -1,0 +1,22 @@
+{
+  "name": "hwm-forum-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/hwm-forum-tools.user.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.46.0",
+    "webpack-userscript": "^2.5.8"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.9",
+    "babel-loader": "^8.2.5",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
