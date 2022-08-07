@@ -37,7 +37,7 @@ export default () => {
   style.innerText = css;
   document.head.appendChild(style);
 
-  setTimer(3);
+  setTimer(20);
 }
 
 function onCounterLinkClick() {
