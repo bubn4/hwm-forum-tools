@@ -8,7 +8,7 @@
     "build": "webpack --mode production"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "webpack": "^4.46.0",
     "webpack-userscript": "^2.5.8"
