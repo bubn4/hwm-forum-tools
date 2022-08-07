@@ -7,6 +7,7 @@
 // @match       http*://*.lordswm.com/forum_messages.php*
 // @namespace   bubna
 // @grant       none
+// @license     MIT
 // @icon        https://dcdn.heroeswm.ru/hwmicon.ico
 // ==/UserScript==
 
